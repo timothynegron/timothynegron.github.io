@@ -1,0 +1,58 @@
+.container {
+    position: relative;
+    color: white;
+}
+
+.h-font-1 {
+    position: absolute;
+    font-family: 'Playfair Display', serif;
+    color: white;
+}
+.p-font-1 {
+    position: absolute;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#line-1 {
+    top: 70px;
+    left: 30px;
+}
+
+#line-2 {
+    top: 90px;
+    left: 30px;
+}
+
+#line-3 {
+    top: 110px;
+    left: 30px;
+}
+
+#line-4 {
+    top: 130px;
+    left: 30px;
+}
+
+#laptop-image {
+    position: absolute;
+    width: 500px;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+}
+
+#laptop-image:hover {
+    width: 550px;
+    filter: none;
+}
+
+#emoji {
+    position: absolute;
+    color: white;
+    top: 270px;
+    left: 30px;
+}
+
+#emoji:hover {
+    transform: scaleY(-1);
+}
