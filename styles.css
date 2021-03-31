@@ -1,58 +1,103 @@
-.container {
-    position: relative;
-    color: white;
+/* TAG SELECTORS */
+
+body {
+    margin: 0;
 }
+a {
+    text-decoration: none;
+    color:rgb(246, 220, 187);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* CLASS SELECTORS */
 
 .h-font-1 {
-    position: absolute;
     font-family: 'Playfair Display', serif;
-    color: white;
+    font-size: 32pt;
 }
+
+.h-font-2{
+    font-family: 'Playfair Display', serif;
+    font-size: 20pt;
+}
+
 .p-font-1 {
-    position: absolute;
-    color: white;
     font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14pt;
 }
 
-#line-1 {
-    top: 70px;
-    left: 30px;
+/* ID SELECTORS */
+
+#app {
+    display: flex;
+    flex-direction: column;
 }
 
-#line-2 {
-    top: 90px;
-    left: 30px;
+#intro {
+    height: 50vh;
+
+    /* Positioning */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-#line-3 {
-    top: 110px;
-    left: 30px;
+#intro-image {
+    width: 200px;
+    /* height: 500px; */
 }
 
-#line-4 {
-    top: 130px;
-    left: 30px;
+#intro-about {
+    width: 50%;
 }
 
-#laptop-image {
-    position: absolute;
-    width: 500px;
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
-}
-
-#laptop-image:hover {
-    width: 550px;
-    filter: none;
-}
-
-#emoji {
-    position: absolute;
+#about-me {
+    background-color: rgb(48, 53, 67);
+    height: 40vh;
     color: white;
-    top: 270px;
-    left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
-#emoji:hover {
-    transform: scaleY(-1);
+#about-me-content {
+    width: 50%;
+}
+
+#about-me-skills {
+    width: 50%;
+}
+
+#about-me-skills-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+#project-0 {
+    height: 25vh;
+}
+
+#project-1 {
+    background-color: lightgrey;
+    height: 25vh;
+}
+
+#project-2 {
+    background-color: lightcoral;
+    height: 25vh;
+}
+
+#project-3 {
+    background-color: lightcyan;
+    height: 25vh;
+}
+
+#project-4 {
+    background-color: lightseagreen;
+    height: 25vh;
 }
