@@ -12,6 +12,10 @@ a:hover {
     text-decoration: underline;
 }
 
+hr {
+    width: 715px;
+}
+
 /* CLASS SELECTORS */
 
 .h-font-1 {
@@ -27,6 +31,7 @@ a:hover {
 .p-font-1 {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 14pt;
+    line-height: 1.5;
 }
 
 /* ID SELECTORS */
@@ -37,7 +42,7 @@ a:hover {
 }
 
 #intro {
-    height: 50vh;
+    height: 45vh;
 
     /* Positioning */
     display: flex;
@@ -48,16 +53,15 @@ a:hover {
 
 #intro-image {
     width: 200px;
-    /* height: 500px; */
 }
 
 #intro-about {
-    width: 50%;
+    width: 715px;
 }
 
 #about-me {
     background-color: rgb(48, 53, 67);
-    height: 40vh;
+    height: 60vh;
     color: white;
     display: flex;
     flex-direction: column;
@@ -66,11 +70,11 @@ a:hover {
 }
 
 #about-me-content {
-    width: 50%;
-}
+    width: 715px;
+} 
 
 #about-me-skills {
-    width: 50%;
+    width: 715px;
 }
 
 #about-me-skills-content {
@@ -100,4 +104,27 @@ a:hover {
 #project-4 {
     background-color: lightseagreen;
     height: 25vh;
+}
+
+
+/* Tablet */
+@media screen and (max-width: 850px){
+    hr{
+        width: 84%;
+    }
+    #intro-about {
+        width: 84%;
+    }
+    #about-me-content {
+        width: 84%;
+    } 
+    
+    #about-me-skills {
+        width: 84%;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: 700px){
+
 }
