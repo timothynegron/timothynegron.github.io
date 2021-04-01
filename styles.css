@@ -85,6 +85,11 @@ h1 {
     color: rgb(18, 40, 100);
 }
 
+.a-color-4 {
+    color:rgb(246, 220, 187);
+    font-size: 16pt;
+}
+
 /* ID SELECTORS */
 
 #app {
@@ -141,9 +146,7 @@ h1 {
     align-items: center;
 }
 
-#image-calc {
-    width: 400px;
-}
+
 
 #project-1 {
     background-color: rgb(200, 200, 200);
@@ -188,8 +191,18 @@ h1 {
     align-items: center;
 }
 
+/* Images */
 
-/* Tablet */
+#image-calc {
+    width: 400px;
+}
+
+#image-countries {
+    width: 100%;
+}
+
+
+/* Tablet Support */
 @media screen and (max-width: 850px){
     #intro-about {
         width: 84%;
@@ -206,7 +219,7 @@ h1 {
     }
 }
 
-/* Mobile */
+/* Mobile Support */
 @media screen and (max-width: 700px){
     #intro {
         height: 100%;
