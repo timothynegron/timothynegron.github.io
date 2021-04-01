@@ -4,12 +4,21 @@ body {
     margin: 0;
 }
 a {
+    font-family: 'Source Sans Pro', sans-serif;
     text-decoration: none;
-    color:rgb(246, 220, 187);
 }
 
 a:hover {
     text-decoration: underline;
+    cursor: pointer;
+}
+
+hr {
+    width: 100%;
+}
+
+h1 {
+    margin: 0;
 }
 
 /* CLASS SELECTORS */
@@ -17,6 +26,7 @@ a:hover {
 .h-font-1 {
     font-family: 'Playfair Display', serif;
     font-size: 32pt;
+    padding: 0;
 }
 
 .h-font-2{
@@ -28,6 +38,37 @@ a:hover {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 14pt;
     line-height: 1.5;
+}
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 715px;
+}
+
+.project-tech {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.project-info {
+    width: 75%;
+}
+
+.a-color-1 {
+    color:rgb(246, 220, 187);
+}
+
+.a-color-2 {
+    color: rgb(18, 40, 100);
+    font-size: 16pt;
+}
+
+.a-color-3 {
+    color: rgb(18, 40, 100);
 }
 
 /* ID SELECTORS */
@@ -57,7 +98,7 @@ a:hover {
 
 #about-me {
     background-color: rgb(48, 53, 67);
-    height: 40vh;
+    /* height: 40vh; */
     color: white;
     display: flex;
     flex-direction: column;
@@ -66,11 +107,13 @@ a:hover {
 }
 
 #about-me-content {
+    margin-top: 30px;
     width: 715px;
 } 
 
 #about-me-skills {
     width: 715px;
+    margin-bottom: 30px;
 }
 
 #about-me-skills-content {
@@ -79,27 +122,56 @@ a:hover {
 }
 
 #project-0 {
-    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#image-calc {
+    width: 400px;
 }
 
 #project-1 {
-    background-color: lightgrey;
-    height: 25vh;
+    background-color: rgb(200, 200, 200);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #project-2 {
-    background-color: lightcoral;
-    height: 25vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #project-3 {
-    background-color: lightcyan;
-    height: 25vh;
+    background-color: rgb(48, 53, 67);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #project-4 {
-    background-color: lightseagreen;
-    height: 25vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact-me {
+    background-color: rgb(200, 200, 200);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -115,6 +187,9 @@ a:hover {
     #about-me-skills {
         width: 84%;
     }
+    .project {
+        width: 84%;
+    }
 }
 
 /* Mobile */
@@ -122,22 +197,38 @@ a:hover {
     #intro {
         height: 100%;
     }
+    #intro-image {
+        width: 175px;
+        margin-top: 30px;
+    }
+    #intro-about {
+        margin-bottom: 30px;
+    }
     #about-me {
         height: 100%;
     }
-    #intro-image {
-        width: 175px;
-    }
     #intro-about {
-        width: 95%;
+        width: 92%;
     }
     #about-me-content {
-        width: 95%;
+        width: 92%;
     } 
     
     #about-me-skills {
-        width: 95%;
+        width: 92%;
+        margin-bottom: 30px;
     }
+    #image-calc {
+        width: 80%;
+    }
+    #image-weather {
+        width: 80%;
+    }
+
+    .project {
+        width: 92%;
+    }
+
     .h-font-1 {
         font-size: 28pt;
     }
