@@ -12,10 +12,6 @@ a:hover {
     text-decoration: underline;
 }
 
-hr {
-    width: 715px;
-}
-
 /* CLASS SELECTORS */
 
 .h-font-1 {
@@ -61,7 +57,7 @@ hr {
 
 #about-me {
     background-color: rgb(48, 53, 67);
-    height: 60vh;
+    height: 40vh;
     color: white;
     display: flex;
     flex-direction: column;
@@ -109,9 +105,6 @@ hr {
 
 /* Tablet */
 @media screen and (max-width: 850px){
-    hr{
-        width: 84%;
-    }
     #intro-about {
         width: 84%;
     }
@@ -126,5 +119,34 @@ hr {
 
 /* Mobile */
 @media screen and (max-width: 700px){
-
+    #intro {
+        height: 50vh;
+    }
+    #about-me {
+        height: 45vh;
+    }
+    #intro-image {
+        width: 175px;
+    }
+    #intro-about {
+        width: 95%;
+    }
+    #about-me-content {
+        width: 95%;
+    } 
+    
+    #about-me-skills {
+        width: 95%;
+    }
+    .h-font-1 {
+        font-size: 28pt;
+    }
+    
+    .h-font-2{
+        font-size: 16pt;
+    }
+    
+    .p-font-1 {
+        font-size: 13pt;
+    }
 }
