@@ -54,6 +54,13 @@ h1 {
     width: 100%;
 }
 
+.project-tech-style {
+    border: solid;
+    border-width: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
 .project-info {
     width: 75%;
 }
@@ -239,5 +246,8 @@ h1 {
     
     .p-font-1 {
         font-size: 13pt;
+    }
+    .project-info {
+        width: 100%;
     }
 }
