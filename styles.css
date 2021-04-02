@@ -180,6 +180,13 @@ h1 {
     margin-top: 30px;
     margin-bottom: 30px;
     width: 850px;
+    display: flex;
+    flex-direction: column;
+}
+
+#project-list-projects {
+    display: flex;
+    justify-content: space-between;
 }
 
 #project-1 {
@@ -319,7 +326,7 @@ h1 {
         font-size: 13pt;
     }
     .p-font-2 {
-        font-size: 11pt;
+        font-size: 10pt;
     }
     .a-color-5 {
         font-size: 12pt;
