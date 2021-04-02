@@ -43,8 +43,8 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     width: 850px;
 }
 
@@ -136,10 +136,6 @@ h1 {
     width: 550px;
 }
 
-#intro-image {
-    height: 280px;
-}
-
 #intro-about {
 }
 
@@ -206,15 +202,13 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom: solid;
 }
 
 #footer {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    height: 30vh;
+    height: 20vh;
 }
 
 #social {
@@ -223,12 +217,25 @@ h1 {
 
 /* Images */
 
+#intro-image {
+    height: 280px;
+}
+
 #image-calc {
     width: 400px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#image-weather {
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 #image-countries {
     width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 #image-github-logo {
@@ -250,7 +257,8 @@ h1 {
         height: 100%;
     }
     #intro-image {
-        width: 270px;
+        width: 220px;
+        height: 220px;
     }
     #intro-content-left {
         width: 100%;
@@ -285,8 +293,8 @@ h1 {
         width: 95%;
     }
     #intro-image {
-        width: 200px;
-        height: 200px;
+        width: 190px;
+        height: 190px;
     }
     #image-calc {
         width: 80%;
@@ -295,7 +303,7 @@ h1 {
         width: 80%;
     }
     .h-font-1 {
-        font-size: 28pt;
+        font-size: 24pt;
     }
     .h-font-2{
         font-size: 16pt;
