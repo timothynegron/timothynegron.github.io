@@ -39,6 +39,13 @@ h1 {
     font-size: 17pt;
     line-height: 1.5;
 }
+
+.p-font-2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 17pt;
+    line-height: 1.5;
+}
+
 .project {
     display: flex;
     flex-direction: column;
@@ -297,10 +304,10 @@ h1 {
         height: 190px;
     }
     #image-calc {
-        width: 80%;
+        width: 60%;
     }
     #image-weather {
-        width: 80%;
+        width: 60%;
     }
     .h-font-1 {
         font-size: 24pt;
@@ -310,6 +317,9 @@ h1 {
     }
     .p-font-1 {
         font-size: 13pt;
+    }
+    .p-font-2 {
+        font-size: 11pt;
     }
     .a-color-5 {
         font-size: 12pt;
