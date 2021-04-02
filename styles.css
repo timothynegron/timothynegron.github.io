@@ -45,7 +45,7 @@ h1 {
     align-items: center;
     margin-top: 20px;
     margin-bottom: 20px;
-    width: 715px;
+    width: 850px;
 }
 
 
@@ -137,8 +137,6 @@ h1 {
 }
 
 #intro-image {
-    /* width: 200px; */
-    /* margin-left: 14px; */
     height: 280px;
 }
 
@@ -173,10 +171,12 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 25vh;
 }
 
-
+#project-list-content {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 
 #project-1 {
     background-color: rgb(200, 200, 200);
@@ -233,12 +233,12 @@ h1 {
 
 
 /* Tablet Support */
-@media screen and (max-width: 990px){
+@media screen and (max-width: 900px){
     #header-content {
-        width: 85%;
+        width: 95%;
     }
     #intro-content {
-        width: 85%;
+        width: 95%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -252,14 +252,17 @@ h1 {
         width: 100%;
     }
     #about-me-content {
-        width: 85%;
+        width: 95%;
     } 
     
     #about-me-skills {
-        width: 85%;
+        width: 95%;
     }
     .project {
-        width: 85%;
+        width: 95%;
+    }
+    .project-info {
+        width: 100%;
     }
 }
 
@@ -278,38 +281,19 @@ h1 {
         width: 200px;
         height: 200px;
     }
-    #about-me {
-        height: 100%;
-    }
-    #about-me-content {
-        width: 95%;
-    } 
-    
-    #about-me-skills {
-        width: 95%;
-        margin-bottom: 30px;
-    }
     #image-calc {
         width: 80%;
     }
     #image-weather {
         width: 80%;
     }
-    .project {
-        width: 95%;
-    }
     .h-font-1 {
         font-size: 28pt;
     }
-    
     .h-font-2{
         font-size: 16pt;
     }
-    
     .p-font-1 {
         font-size: 13pt;
-    }
-    .project-info {
-        width: 100%;
     }
 }
