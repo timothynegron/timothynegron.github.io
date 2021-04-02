@@ -206,20 +206,19 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-#contact-me {
-    background-color: rgb(200, 200, 200);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    border-bottom: solid;
 }
 
 #footer {
-    background-color: white;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 30vh;
+}
+
+#social {
+    margin-top: 50px;
 }
 
 /* Images */
@@ -230,6 +229,10 @@ h1 {
 
 #image-countries {
     width: 100%;
+}
+
+#image-github-logo {
+    margin-right: 20px;
 }
 
 
