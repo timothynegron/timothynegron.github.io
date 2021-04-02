@@ -36,7 +36,7 @@ h1 {
 
 .p-font-1 {
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 14pt;
+    font-size: 17pt;
     line-height: 1.5;
 }
 .project {
@@ -78,7 +78,7 @@ h1 {
 
 .a-color-2 {
     color: rgb(18, 40, 100);
-    font-size: 16pt;
+    font-size: 17pt;
 }
 
 .a-color-3 {
@@ -87,7 +87,12 @@ h1 {
 
 .a-color-4 {
     color:rgb(246, 220, 187);
-    font-size: 16pt;
+    font-size: 17pt;
+}
+
+.a-color-5 {
+    color: black;
+    font-size: 17pt;
 }
 
 /* ID SELECTORS */
@@ -97,27 +102,51 @@ h1 {
     flex-direction: column;
 }
 
-#intro {
-    height: 45vh;
+#header {
+    height: 10vh;
 
-    /* Positioning */
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#header-content {
+    width: 850px;
+
+    display: flex;
+    justify-content: space-between
+}
+
+#intro {
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 
+#intro-content {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 850px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#intro-content-left {
+    width: 550px;
+}
+
 #intro-image {
-    width: 200px;
+    /* width: 200px; */
+    /* margin-left: 14px; */
+    height: 280px;
 }
 
 #intro-about {
-    width: 715px;
 }
 
 #about-me {
     background-color: rgb(48, 53, 67);
-    /* height: 40vh; */
     color: white;
     display: flex;
     flex-direction: column;
@@ -127,11 +156,11 @@ h1 {
 
 #about-me-content {
     margin-top: 30px;
-    width: 715px;
+    width: 850px;
 } 
 
 #about-me-skills {
-    width: 715px;
+    width: 850px;
     margin-bottom: 30px;
 }
 
@@ -140,10 +169,11 @@ h1 {
     justify-content: space-between;
 }
 
-#project-0 {
+#project-list {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 25vh;
 }
 
 
@@ -203,46 +233,60 @@ h1 {
 
 
 /* Tablet Support */
-@media screen and (max-width: 850px){
-    #intro-about {
-        width: 84%;
+@media screen and (max-width: 990px){
+    #header-content {
+        width: 85%;
+    }
+    #intro-content {
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+    #intro-image {
+        width: 270px;
+    }
+    #intro-content-left {
+        width: 100%;
     }
     #about-me-content {
-        width: 84%;
+        width: 85%;
     } 
     
     #about-me-skills {
-        width: 84%;
+        width: 85%;
     }
     .project {
-        width: 84%;
+        width: 85%;
     }
 }
 
 /* Mobile Support */
 @media screen and (max-width: 700px){
+    #header-content {
+        width: 95%;
+    }
     #intro {
         height: 100%;
     }
-    #intro-image {
-        width: 175px;
-        margin-top: 30px;
+    #intro-content {
+        width: 95%;
     }
-    #intro-about {
-        margin-bottom: 30px;
+    #intro-image {
+        width: 200px;
+        height: 200px;
     }
     #about-me {
         height: 100%;
     }
-    #intro-about {
-        width: 92%;
-    }
     #about-me-content {
-        width: 92%;
+        width: 95%;
     } 
     
     #about-me-skills {
-        width: 92%;
+        width: 95%;
         margin-bottom: 30px;
     }
     #image-calc {
@@ -251,11 +295,9 @@ h1 {
     #image-weather {
         width: 80%;
     }
-
     .project {
-        width: 92%;
+        width: 95%;
     }
-
     .h-font-1 {
         font-size: 28pt;
     }
