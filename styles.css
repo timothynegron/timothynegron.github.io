@@ -6,10 +6,12 @@ body {
 a {
     font-family: 'Source Sans Pro', sans-serif;
     text-decoration: none;
+    font-size: 24pt;
 }
 
 p {
     font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16pt;
 }
 
 a:hover {
@@ -188,19 +190,20 @@ hr {
 
 #project-list-projects {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 30px;
 }
 
 #project-list-left {
     display: flex;
     flex-direction: column;
-    width: 350px;
+    width: 300px;
 }
 
 #project-list-right {
     display: flex;
     flex-direction: column;
+    width: 300px;
 }
 
 #project-1 {
