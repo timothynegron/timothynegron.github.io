@@ -104,6 +104,11 @@ hr {
     font-size: 17pt;
 }
 
+.a-style-1 {
+    font-size: 18pt;
+    text-decoration: underline;
+}
+
 /* ID SELECTORS */
 
 #app {
