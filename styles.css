@@ -189,6 +189,7 @@ hr {
 #project-list-projects {
     display: flex;
     justify-content: space-between;
+    margin-top: 30px;
 }
 
 #project-list-left {
@@ -235,7 +236,7 @@ hr {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 20vh;
+    height: 28vh;
 }
 
 #social {
