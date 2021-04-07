@@ -3,6 +3,7 @@
 body {
     margin: 0;
 }
+
 a {
     font-family: 'Source Sans Pro', sans-serif;
     text-decoration: none;
@@ -107,6 +108,7 @@ hr {
 .a-style-1 {
     font-size: 18pt;
     text-decoration: underline;
+    color: black;
 }
 
 /* ID SELECTORS */
